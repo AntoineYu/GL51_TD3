@@ -6,7 +6,7 @@ import spock.lang.Specification
 import javax.inject.Inject
 
 @MicronautTest
-class MovieRegistryImplTest extends Specification{
+class MovieRegistryImplTest extends Specification {
     @Inject MovieRegistryImpl registry
 
     void "injection should work"() {
