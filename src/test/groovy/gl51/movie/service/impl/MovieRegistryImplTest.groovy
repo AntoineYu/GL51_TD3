@@ -16,7 +16,7 @@ class MovieRegistryImplTest extends Specification {
 
     void "favorites should be empty"() {
         expect:
-        registry.listFavorites() == []
+            registry.listFavorites() == []
     }
 
     void "adding a favorites should fill in the database"() {
